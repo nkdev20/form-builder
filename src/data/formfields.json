@@ -1,0 +1,39 @@
+{
+    "fields": [
+        {
+            "label": "Name",
+            "type": "input",
+            "fieldName": "name",
+            "placeholder": "Nikhil Kamath",
+            "helpText": "supply your first name and last name",
+            "required": true
+        },
+        {
+            "label": "Password",
+            "type": "password",
+            "fieldName": "password",
+            "required": true
+        },
+        {
+            "label": "Phone number",
+            "type": "text",
+            "fieldName": "phone",
+            "placeholder": "+44 7809 12 34 56"
+        },
+        {
+            "label": "Please choose one or more pets",
+            "fieldName": "pets",
+            "type": "select",
+            "values": [
+                {
+                    "val": "dog",
+                    "text": "Dog"
+                },
+                {
+                    "val": "cat",
+                    "text": "cat"
+                }
+            ]
+        }
+    ]
+}
